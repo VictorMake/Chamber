@@ -367,6 +367,9 @@
   <ItemGroup>
     <Folder Include="DLL\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Git.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(AssemblyName).dll" "D:\Project\Registration_VS2019\Registration\bin\x86\Release\Store\МодулиРасчета" /Y 
